@@ -4,19 +4,19 @@ This dataset consists of 200K+ recipes and 1.1M+ recipe reviews covering 18 year
 
 Generating Personalized Recipes from Historical User Preferences Bodhisattwa Prasad Majumder, Shuyang Li, Jianmo Ni, Julian McAuley EMNLP, 2019 https://www.aclweb.org/anthology/D19-1613/
 
-### Data Analysis Part  
+## Data Analysis Part  
 
 In the data analysis part, detailed analyses of the recipes, users and contributors were made. In addition, using NLP techniques, ingredients, recipe names, and reviews were examined and word clouds were created. Finally, sentiment analysis was performed on the reviews, and the rating averages of the positive reviews and negative reviews were examined.  
 
-### Content Based Recommendation  
+## Content Based Recommendation  
 
 In this part,recipe definitions and recipe steps were examined and a content-based recommendation system was built.Content-based filtering methods are based on a description of the item and a profile of the user's preferences 
 
-### Matrix Factorization Recommendation  
+## Matrix Factorization Recommendation  
 
-The main purpose of this part, in which the basics of matrix factorization recommendations is explained and its implementation is realized, is to learn how many points our customers who did not rate for the recipe can give to these recipes by using the interaction based on the user latent factors and item latent factors.  
+The main purpose of this part, in which the basics of matrix factorization recommendations are explained and its implementation is realized, is to learn how many points our customers who did not rate for the recipe can give to these recipes by using the interaction based on the user latent factors and item latent factors.  
 
-### Clustering  
+## Clustering  
 
 In this part, a clustering model was bulilt based on nutritional values, ingredients and tags.  
 
